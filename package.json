@@ -1,0 +1,41 @@
+{
+  "name": "test-application",
+  "version": "1.0.0",
+  "description": "Test Application for Students",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Cretezy/react-redux-router-firebase.git"
+  },
+  "author": "Solomon Kingsley",
+  "license": "MIT",
+  "engines": {
+    "node": "6.10.0",
+    "npm": "5.3.0"
+  },
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "bootstrap": "^3.3.4",
+    "firebase": "^3.5.3",
+    "html2canvas": "^1.0.0-alpha.7",
+    "jquery": "^3.2.1",
+    "jspdf": "^1.3.5",
+    "react": "^15.3.2",
+    "react-bootstrap-sweetalert": "^4.1.0",
+    "react-dom": "^15.3.2",
+    "react-rangeslider": "^2.2.0",
+    "react-redux": "^4.4.5",
+    "react-router": "^3.0.0",
+    "react-router-redux": "^4.0.7",
+    "redux": "^3.6.0",
+    "moment": "^2.20.1",
+    "react-scripts": "0.7.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "start:heroku": "./node_modules/.bin/react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
